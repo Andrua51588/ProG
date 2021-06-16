@@ -2,9 +2,10 @@ local tab = {"Andrua51588","sans229220"}
 local val = false
 for i,v in pairs(tab) do 
 if game.Players.LocalPlayer.Name == v then 
-print("g")
+warn("-----------------"..game.Players.LocalPlayer.Name.."; Injected script by Andrua51588------------------------time: "..os.time())
 val = true 
-end end 
+end 
+end 
 if val == false then 
 game.Players.LocalPlayer:Kick("Free Hacker")
 end 
